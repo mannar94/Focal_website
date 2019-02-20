@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar-nav-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+.main_admin_page {
+    
+    background-image: url('../images/Admin.jpg') ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    margin-top: -22px;
+}
+.main_admin_page > .overlay {
+    padding: 70px 0;
+}
+.main_admin_page .nav-tabs {
+    border-bottom: 0px solid #ddd;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+.main_admin_page .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+    width: 125px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-tabs > li > a {
+    color: #6fae2b;
+}
+.nav-tabs > li > a:hover {
+    color: #6fae2b;
+}
+.tab-content {
+    width: 100%;
+    min-height: 1200px;
+    height: auto;
+    border: 0px solid #eee;
+}
+
+
+@media(min-width:0px)and (max-width:766px){
+    
+    .navbar-nav{padding-left: 0px;}
+    .navbar-nav > li {
+         float: none; 
+         padding-left: 0px; 
+         padding-top: 0px; 
+    }
+    .navbar-nav-fixed {margin-left: 37px;}
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 38px;
+        }
+}
+
+@media(min-width:766px)and (max-width:970px){
+    .navbar-nav {
+    padding-left: 0px;
+    margin-top: 11px;
+    }
+    .navbar-nav-fixed {margin-left: 37px;margin-top: 10px; }
+    .navbar-nav > li {
+         float: left; 
+         padding-left: 0px; 
+         padding-top: 0px;
+         margin-top: -8px;
+    }
+}

@@ -1,0 +1,17 @@
+html, body {
+	height: 4000px;
+}
+
+.navbar-trans {
+	background-color:#279ddd;
+    color:#fff;
+    border:0;
+}
+
+.navbar-trans li>a:hover,.navbar-trans li>a:focus,.navbar-trans li.active {
+	background-color:#168ccc;
+}
+
+.navbar-trans a{
+    color:#fefefe;
+}

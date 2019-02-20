@@ -1,0 +1,79 @@
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border: 0px;
+}
+input {
+    border: 0px;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 66%;
+    border: 2px solid #6fae2b;
+}
+.img-circle:hover {
+    transform: scale(1.5);
+    animation: fadeInUp 2s ease 0s  1 normal none running;
+    transition: 1.5s;
+}
+.form-control {
+    border-color: transparent;
+    background-color: transparent ; 
+    border: 1px solid  transparent; 
+    border-radius: 4px; 
+    box-shadow: none
+}
+input[type="button"] {
+   
+    float: right;
+    border-color: #6fae2b;
+}
+input[type="button"]:hover,
+input[type="button"]:foucs{
+   
+    border-color: #6fae2b;
+}
+.btn-success {
+    color: #fff;
+    background-color: #6fae2b;
+    border-color: #6fae2b;
+}
+footer .bottom-footer{
+    text-align: center;
+    background-color: #000;
+    margin-bottom: 0px;
+}
+.back {
+    margin: -117px 0px 0px 89%;
+}
+
+@media(min-width:0px)and (max-width:766px){
+    
+    .navbar-nav{padding-left: 0px;}
+    .navbar-nav > li {
+         float: none; 
+         padding-left: 0px; 
+         padding-top: 0px; 
+    }
+    .navbar-nav-fixed {margin-left: 37px;}
+    .nav > li > a {
+        position: relative;
+        display: block;
+        padding: 10px 38px;
+        }
+}
+
+@media(min-width:766px)and (max-width:970px){
+    .navbar-nav {
+    padding-left: 0px;
+    margin-top: 11px;
+    }
+    .navbar-nav-fixed {margin-left: 37px;margin-top: 10px; }
+    .navbar-nav > li {
+         float: left; 
+         padding-left: 0px; 
+         padding-top: 0px;
+         margin-top: -8px;
+    }
+}
